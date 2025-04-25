@@ -25,6 +25,7 @@ public class Order {
 	private boolean isGithubPushed;
 
 	public Order() {
+		
 	}
 
 	public Order(Long id, Long userId, String projectId, LocalDateTime purchasedAt, double price,
