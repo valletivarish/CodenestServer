@@ -18,7 +18,6 @@ public class ProjectUserActivity {
 	private LocalDateTime lastZipDownloadTime;
 
 	public ProjectUserActivity() {
-		super();
 	}
 
 	public ProjectUserActivity(String id, Long userId, String projectId, GitHubInfo githubInfo, boolean zipDownloaded,
